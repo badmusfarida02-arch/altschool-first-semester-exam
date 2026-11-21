@@ -1,0 +1,531 @@
+* {
+  font-family: "DM Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Header */
+.head {
+  padding: 20px 72px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat {
+  color: #543ee0;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.rem {
+  display: flex;
+  gap: 32px;
+}
+
+.rem p {
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.but {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.log {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid #543ee0;
+  background-color: transparent;
+  color: #543ee0;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.sign {
+  padding: 8px 20px;
+  border-radius: 8px;
+  background-color: #543ee0;
+  border: 1px solid #543ee0;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Welcome to chatter */
+.ins {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url(pics/unsplash_-2vD8lIhdnw.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  padding: 220px 172px;
+}
+
+.ins-content {
+  max-width: 1200px;
+}
+
+.ins h1 {
+  font-size: 48px;
+  line-height: 60px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.ins p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.ins button {
+  padding: 12px 24px;
+  background-color: #543ee0;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* About chatter */
+.ne {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 80px 72px;
+  gap: 60px;
+}
+
+.abt {
+  flex: 1;
+}
+
+.abt h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.abt p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #333;
+  font-weight: 400;
+  max-width: 686px;
+}
+
+.img {
+  width: 100%;
+  max-width: 480px;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Why you should join chatter */
+.ha {
+  padding: 60px 72px 80px 72px;
+}
+
+.our {
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.ha h1 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.ha p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #333;
+}
+
+.lf {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.a {
+  flex: 1;
+  border: 1px solid #d0d0d0;
+  padding: 16px;
+  border-radius: 8px;
+  width: auto;
+}
+
+.a img {
+  width: 50px;
+  height: auto;
+  margin-bottom: 16px;
+}
+
+.a h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.a p {
+  font-size: 18px;
+  line-height: 27px;
+  color: #626262;
+  max-width: 254px;
+}
+
+/* Testimonial / Chatter */
+.col {
+  background-color: #ffedcc80;
+  padding: 80px 72px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.man {
+  flex-shrink: 0;
+}
+
+.man img {
+  width: 361px;
+  height: 361px;
+  max-width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+.par {
+  flex: 1;
+  max-width: 924px;
+}
+
+.cha p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #222;
+}
+
+.ade {
+  margin-top: 24px;
+  margin-bottom: 20px;
+}
+
+.ade span {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.ade p {
+  font-size: 24px;
+  color: #333;
+}
+
+.join {
+  background-color: #543ee0;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Second CTA Section */
+.s-last {
+  padding: 80px 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.im {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+
+.ima {
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+}
+
+.ima img,
+.mm img {
+  width: 169px;
+  height: 169px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+.wr {
+  flex: 1;
+}
+
+.ite p {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 72px;
+  margin-bottom: 20px;
+}
+
+.share p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #444;
+  margin-bottom: 24px;
+}
+
+.get {
+  background-color: #543ee0;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Footer */
+.last {
+  background-color: #ffedcc80;
+  padding: 60px 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.l-cha p {
+  color: #543ee0;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.grid {
+  display: flex;
+  gap: 80px;
+}
+
+.ex p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.com p {
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #333;
+  cursor: pointer;
+}
+
+/* Mobile Media Query */
+@media (max-width: 768px) {
+  /* Header */
+  .head {
+    flex-direction: column;
+    padding: 24px 20px;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .chat {
+    font-size: 36px;
+  }
+
+  .rem {
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .rem p {
+    white-space: nowrap;
+    font-size: 15px;
+  }
+
+  /* Hero Section */
+  .ins {
+    padding: 80px 20px;
+    height: auto;
+  }
+
+  .ins h1 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .ins p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  /* About Chatter */
+  .ne {
+    flex-direction: column;
+    padding: 50px 20px;
+    gap: 30px;
+  }
+
+  .abt h1 {
+    font-size: 30px;
+    margin-bottom: 16px;
+  }
+
+  .abt p {
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 100%;
+  }
+
+  .img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Why you should join chatter */
+  .ha {
+    padding: 50px 20px;
+  }
+
+  .ha h1 {
+    font-size: 30px;
+  }
+
+  .ha p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .our {
+    max-width: 100%;
+  }
+
+  .lf {
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 30px;
+  }
+
+  .a {
+    width: 100%;
+  }
+
+  .a p {
+    max-width: 100%;
+  }
+
+  /* Testimonial */
+  .col {
+    flex-direction: column;
+    padding: 50px 20px;
+    gap: 30px;
+  }
+
+  .man {
+    margin: 0 auto;
+  }
+
+  .man img {
+    width: 160px;
+    height: 160px;
+  }
+
+  .par {
+    max-width: 100%;
+  }
+
+  .cha p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .ade span {
+    font-size: 18px;
+  }
+
+  .ade p {
+    font-size: 16px;
+  }
+
+  /* Second CTA */
+  .s-last {
+    flex-direction: column;
+    padding: 50px 20px;
+    gap: 40px;
+  }
+
+  .im {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .ima {
+    gap: 20px;
+  }
+
+  .ima img,
+  .mm img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .wr {
+    max-width: 100%;
+  }
+
+  .ite p {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .share p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  /* Footer */
+  .last {
+    flex-direction: column;
+    padding: 50px 20px;
+    gap: 40px;
+  }
+
+  .grid {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
